@@ -1,0 +1,23 @@
+{
+  "name": "package-example1",
+  "version": "1.0.0",
+  "description": "react_start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 231130_index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelseashin/react_start.git"
+  },
+  "author": "chelseashin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelseashin/react_start/issues"
+  },
+  "homepage": "https://github.com/chelseashin/react_start#readme",
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  }
+}
