@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import OddEvenResult from './OddEvenResult';    
 
 // 부모 컴포넌트에서 내려준 props를 매개변수를 통해 받아와 사용
 // const Counter = (props) => {
@@ -22,6 +23,8 @@ const Counter = ({initialValue}) => {    // 비구조화 할당 방식
             <h2>{count}</h2>
             <button onClick={onIncrease}>+</button>
             <button onClick={onDecrease}>-</button>
+
+            <OddEvenResult count={count} />
         </div>
     )
 };

@@ -5,6 +5,7 @@ import MyHeader from './MyHeader';
 import MyFooter from './MyFooter';
 import Counter from './Counter';
 
+
 function App() {
   let name = "채원이";
   const style = {
@@ -30,7 +31,6 @@ function App() {
     c: 3,
     d: 4,
     e: 5,
-    initialValue: 50
   }
 
   return (

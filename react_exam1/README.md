@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+React의 컴포넌트는
+
+1. 본인이 관리하고 본인이 가진 State가 바뀔 때마다 Re-Render가 되고,
+2. 나에게 내려오는 Props가 바뀔 때마다 Re-Render가 되고,
+3. 둘 다 아니어도 내 부모가 리랜더 되면 나도 리랜더가 된다고 생각하면 됨!
